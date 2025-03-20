@@ -3,7 +3,7 @@ package com.server.spring.feign.client;
 import com.server.spring.feign.client.dto.Post;
 import com.server.spring.feign.client.dto.reponse.AirlineResponse;
 import com.server.spring.feign.client.repository.FeignClientRepository;
-import com.server.spring.feign.client.web.WebToolsService;
+import com.server.spring.feign.client.service.WebToolsService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
