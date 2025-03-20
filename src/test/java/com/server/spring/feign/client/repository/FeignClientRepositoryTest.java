@@ -1,3 +1,22 @@
+/**
+ * Unit tests for the {@link FeignClientRepository} class.
+ * 
+ * <p>This test class uses Mockito to mock the {@link FeignClientRepository} and verify its behavior.</p>
+ * 
+ * <p>Test cases:</p>
+ * <ul>
+ *   <li>{@link #getPosts_returnsListOfPosts()}: Verifies that the {@code getPosts} method returns a list of posts.</li>
+ *   <li>{@link #getPosts_returnsEmptyListWhenNoPosts()}: Verifies that the {@code getPosts} method returns an empty list when there are no posts.</li>
+ * </ul>
+ * 
+ * <p>Annotations used:</p>
+ * <ul>
+ *   <li>{@link ExtendWith}: To integrate Mockito with JUnit 5.</li>
+ *   <li>{@link Mock}: To create a mock instance of {@link FeignClientRepository}.</li>
+ *   <li>{@link BeforeEach}: To set up the test environment before each test case.</li>
+ *   <li>{@link Test}: To mark the methods as test cases.</li>
+ * </ul>
+ */
 package com.server.spring.feign.client.repository;
 
 import com.server.spring.feign.client.dto.Post;
